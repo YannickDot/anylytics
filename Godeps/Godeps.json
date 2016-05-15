@@ -1,0 +1,106 @@
+{
+	"ImportPath": "anylytics",
+	"GoVersion": "go1.5",
+	"GodepVersion": "v67",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/benmanns/goworker",
+			"Comment": "v0.1.2-14-gccb2402",
+			"Rev": "ccb2402abfe551959fe02da711fe27de61df1f82"
+		},
+		{
+			"ImportPath": "github.com/cihub/seelog",
+			"Comment": "v2.6-11-ga98235b",
+			"Rev": "a98235bd6d927ba8379ef4f0050c32c9a2ea17b8"
+		},
+		{
+			"ImportPath": "github.com/garyburd/redigo/internal",
+			"Rev": "8873b2f1995f59d4bcdd2b0dc9858e2cb9bf0c13"
+		},
+		{
+			"ImportPath": "github.com/garyburd/redigo/redis",
+			"Rev": "8873b2f1995f59d4bcdd2b0dc9858e2cb9bf0c13"
+		},
+		{
+			"ImportPath": "github.com/golang/glog",
+			"Rev": "23def4e6c14b4da8ac2ed8007337bc5eb5007998"
+		},
+		{
+			"ImportPath": "github.com/gorilla/context",
+			"Comment": "v1.1-2-ga8d44e7",
+			"Rev": "a8d44e7d8e4d532b6a27a02dd82abb31cc1b01bd"
+		},
+		{
+			"ImportPath": "github.com/gorilla/mux",
+			"Comment": "v1.1-7-g9c19ed5",
+			"Rev": "9c19ed558d5df4da88e2ade9c8940d742aef0e7e"
+		},
+		{
+			"ImportPath": "github.com/kavu/go-resque",
+			"Comment": "v0.1.0-15-g7664d19",
+			"Rev": "7664d1958e9d089fb3b4c48b1458efe0f9720437"
+		},
+		{
+			"ImportPath": "github.com/kavu/go-resque/driver",
+			"Comment": "v0.1.0-15-g7664d19",
+			"Rev": "7664d1958e9d089fb3b4c48b1458efe0f9720437"
+		},
+		{
+			"ImportPath": "github.com/kavu/go-resque/godis",
+			"Comment": "v0.1.0-15-g7664d19",
+			"Rev": "7664d1958e9d089fb3b4c48b1458efe0f9720437"
+		},
+		{
+			"ImportPath": "github.com/simonz05/godis/redis",
+			"Comment": "weekly.2012-03-27-80-g109ffb8",
+			"Rev": "109ffb8e37383eb0e84811aefd5c6b952dfb005d"
+		},
+		{
+			"ImportPath": "github.com/youtube/vitess/go/acl",
+			"Comment": "v2.0.0-beta.2-227-g8c9ec45",
+			"Rev": "8c9ec45e42f423fbd0bcf379c13add19280c94c6"
+		},
+		{
+			"ImportPath": "github.com/youtube/vitess/go/cache",
+			"Comment": "v2.0.0-beta.2-227-g8c9ec45",
+			"Rev": "8c9ec45e42f423fbd0bcf379c13add19280c94c6"
+		},
+		{
+			"ImportPath": "github.com/youtube/vitess/go/pools",
+			"Comment": "v2.0.0-beta.2-227-g8c9ec45",
+			"Rev": "8c9ec45e42f423fbd0bcf379c13add19280c94c6"
+		},
+		{
+			"ImportPath": "github.com/youtube/vitess/go/sync2",
+			"Comment": "v2.0.0-beta.2-227-g8c9ec45",
+			"Rev": "8c9ec45e42f423fbd0bcf379c13add19280c94c6"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "30be488e9140ebb7fac3b2995ac5a4b4d5e715ed"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2",
+			"Comment": "r2016.02.04-1-gb6e2fa3",
+			"Rev": "b6e2fa371e64216a45e61072a96d4e3859f169da"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2/bson",
+			"Comment": "r2016.02.04-1-gb6e2fa3",
+			"Rev": "b6e2fa371e64216a45e61072a96d4e3859f169da"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2/internal/sasl",
+			"Comment": "r2016.02.04-1-gb6e2fa3",
+			"Rev": "b6e2fa371e64216a45e61072a96d4e3859f169da"
+		},
+		{
+			"ImportPath": "gopkg.in/mgo.v2/internal/scram",
+			"Comment": "r2016.02.04-1-gb6e2fa3",
+			"Rev": "b6e2fa371e64216a45e61072a96d4e3859f169da"
+		}
+	]
+}
