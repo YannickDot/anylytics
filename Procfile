@@ -1,1 +1,1 @@
-web: ./anylytics
+web: go run main.go
