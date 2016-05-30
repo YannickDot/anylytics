@@ -1,1 +1,1 @@
-web: anylytics
+web: ./main

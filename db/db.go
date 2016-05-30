@@ -17,7 +17,9 @@ func InitRedisQueue() *resque.RedisEnqueuer {
 }
 
 func InitMongoDB() *mgo.Session {
-  s, err := mgo.Dial("mongodb://localhost")
+  // s, err := mgo.Dial("mongodb://localhost")
+  s, err := mgo.Dial("mongodb://test:testing01@ds019123.mlab.com:19123/heroku_mblfrk4f")
+
   if err != nil {
       panic(err)
   }
